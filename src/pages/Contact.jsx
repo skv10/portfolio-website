@@ -39,9 +39,9 @@ const Contact = () => {
                 <p>
                  if you want to work with me or Hire as freelancer - email me on sameershukla1999@gmail.com
                 </p>
-                <p>
-                I can create the Frontend (Angular,React) and Backend (node.js ) 
-                </p>
+                {/* <p>
+                I have experience of working as Front-end-Developer in Angular and React.js. I have 
+                </p> */}
             </div>
             </Col>
         </Row>

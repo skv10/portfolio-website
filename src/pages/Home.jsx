@@ -16,7 +16,7 @@ const Home = () => {
           animate={{x:0,scale:1}}
           transition={{duration:1}}
           >
-           <font>Full Stack Developer</font>with Knowlede of Angular,React and Node.js
+           <font>Full Stack Developer</font> with Knowlede of Angular,React and Node.js
         </motion.div>
     </div>
   )

@@ -1,6 +1,7 @@
 import React from 'react';
-import img1 from "../images/1.png";
-import img2 from "../images/2.png";
+import img1 from "../images/TIC_TAC_TOE.png";
+import img2 from "../images/TV_Maje.png";
+import img3 from "../images/Portfolio_Website.png";
 import { Card } from 'react-bootstrap';
 import {motion} from "framer-motion";
 
@@ -14,9 +15,14 @@ const Projects = () => {
     },
     {
         id:2,
-        name:"TV Movie MAJE",
+        name:"Display List of Actor and Shows from TV Maje",
         imageUrl:img2
-    }
+    },
+    {
+      id:3,
+      name:"A Simple Portfolio Website with Animation React.js",
+      imageUrl:img3
+  }
 ]
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from "../images/1.png";
-import img2 from "../images/2.png";
+import img1 from "../images/front_end_developer.png";
+import img2 from "../images/back_end_developer.jpg";
 import { Card } from 'react-bootstrap';
 import {motion} from "framer-motion";
 
@@ -9,12 +9,12 @@ const Services = () => {
     const serviceList =[
         {
         id:1,
-        name:"FrontEnd Development",
+        name:"Front-End Development (Angular or React.js)",
         imageUrl:img1
     },
     {
         id:2,
-        name:"Back-end Development",
+        name:"Back-end Development (Node.js)",
         imageUrl:img2
     }];
   return (

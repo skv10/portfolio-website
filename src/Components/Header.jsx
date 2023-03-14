@@ -14,7 +14,7 @@ const Header = () => {
       <Navbar expand="lg" fixed="top">
        <Container>
         <Navbar.Brand>
-            Sameer Shukla
+        <NavLink to="/" className='nav-link' style={({isActive})=>( isActive ? activeStyle :undefined)}>Sameer</NavLink>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className='justify-content-end'>
@@ -22,7 +22,7 @@ const Header = () => {
               <NavLink to="/" className='nav-link' style={({isActive})=>( isActive ? activeStyle :undefined)}>Home</NavLink>
               <NavLink to="/projects" className='nav-link' style={({isActive})=>( isActive ? activeStyle :undefined)}>Projects</NavLink>
               <NavLink to="/services" className='nav-link' style={({isActive})=>( isActive ? activeStyle :undefined)}>Services</NavLink>
-              <NavLink to="/about" className='nav-link' style={({isActive})=>( isActive ? activeStyle :undefined)}>About</NavLink>
+              {/* <NavLink to="/about" className='nav-link' style={({isActive})=>( isActive ? activeStyle :undefined)}>About</NavLink> */}
               <NavLink to="/contact" className='nav-link' style={({isActive})=>( isActive ? activeStyle :undefined)}>Contact</NavLink>
             </Nav>
         </Navbar.Collapse>
